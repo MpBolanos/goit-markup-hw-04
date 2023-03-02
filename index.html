@@ -48,11 +48,16 @@
             <a
               href="mailto:info@devstudio.com"
               class="email header-contacts-link link"
+            >
+              <svg class="icon-header" width="16" height="12">
+                <use href="./images/icons.svg#icon-email"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="header-tel">
             <a href="tel:+525555296000" class="tel header-contacts-link link"
+              ><svg class="icon-header" width="16" height="12">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+52 55 5529 6000</a
             >
           </li>
@@ -78,6 +83,11 @@
           <h2 hidden class="t-benefits">Nuestras ventanas</h2>
           <ul class="benefits-list list">
             <li class="benefits-list-item">
+              <div class="features-container">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits">ATENCIÓN A LOS DETALLES</h3>
               <p class="benefits-text">
                 Nos adentramos en todos los detalles y procesos de su negocio,
@@ -85,6 +95,11 @@
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="features-container">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits">PUNTUALIDAD</h3>
               <p class="benefits-text">
                 Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -93,6 +108,11 @@
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="features-container">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits">PLANIFICACIÓN</h3>
               <p class="benefits-text">
                 Usted podrá observar y participar en cada fase del desarrollo y
@@ -100,6 +120,11 @@
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="features-container">
+                <svg class="features-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits">TEGNOLOGÍA MODERNA</h3>
               <p class="benefits-text">
                 Usamos herramientas innovadoras para resolver las tareas
@@ -116,25 +141,37 @@
           <h2 class="title-what-do">A qué nos dedicamos</h2>
           <ul class="img-container-list list work">
             <li class="img-work-item">
-              <img
-                src="./image/Diseño_desarrollo_SW.jpg"
-                alt="Diseño y desarrollo de una solución informática"
-                width="373"
-              />
+              <div>
+                <img
+                  class="img-work"
+                  src="./images/Diseño_desarrollo_SW.jpg"
+                  alt="Diseño y desarrollo de una solución informática"
+                  width="373"
+                />
+                <div class="title-work">
+                  <h3>APLICACIONES DE ESCRITORIO</h3>
+                </div>
+              </div>
             </li>
             <li class="img-work-item">
-              <img
-                src="./image/Diseño_Responsive.jpg"
-                alt="Diseño web responsive"
-                width="373"
-              />
+              <div>
+                <img
+                  src="./images/Diseño_Responsive.jpg"
+                  alt="Diseño web responsive"
+                  width="373"
+                />
+                <div class="title-work"><h3>APLICACIONES MÓVILES</h3></div>
+              </div>
             </li>
             <li class="img-work-item">
-              <img
-                src="./image/Diseño_Necesidades.jpg"
-                alt="Diseño de acuerdo a la necesidades"
-                width="373"
-              />
+              <div class="title-work">
+                <img
+                  src="./images/Diseño_Necesidades.jpg"
+                  alt="Diseño de acuerdo a la necesidades"
+                  width="373"
+                />
+                <div><h3>SOLUCIONES DE DISEÑO</h3></div>
+              </div>
             </li>
           </ul>
         </div>
@@ -148,52 +185,207 @@
             <li class="our-team-item">
               <img
                 class="img-our-team"
-                src="./image/andres_cubo.jpg"
+                src="./images/andres_cubo.jpg"
                 alt="Miembro del equipo de trabajo Andrés Cubo"
                 width="270"
               />
               <div class="container-title-text">
                 <h3 class="title-our-team-person">Andrés Cubo</h3>
                 <p class="our-team-text">Diseñador de Productos</p>
+                <div class="content-social-networks">
+                  <ul class="social-networks-list list">
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </li>
             <li class="our-team-item">
               <img
                 class="img-our-team"
-                src="./image/carla_palacios.jpg"
+                src="./images/carla_palacios.jpg"
                 alt="Miembro del equipo de trabajo Carla Palacios"
                 width="270"
               />
               <div class="container-title-text">
                 <h3 class="title-our-team-person">Carla Palacios</h3>
                 <p class="our-team-text">Desarrolladora Frontend</p>
+                <div class="content-social-networks">
+                  <ul class="social-networks-list list">
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </li>
             <li class="our-team-item">
               <img
                 class="img-our-team"
-                src="./image/mario_dorado.jpg"
+                src="./images/mario_dorado.jpg"
                 alt="Miembro del equipo de trabajo Mario Dorado"
                 width="270"
               />
               <div class="container-title-text">
                 <h3 class="title-our-team-person">Mario Dorado</h3>
                 <p class="our-team-text">Marketing</p>
+                <div class="content-social-networks">
+                  <ul class="social-networks-list list">
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </li>
             <li class="our-team-item">
               <img
                 class="img-our-team"
-                src="./image/pablo_mijangos.jpg"
+                src="./images/pablo_mijangos.jpg"
                 alt="Miembro del equipo de trabajo Pablo Mijangos"
                 width="270"
               />
               <div class="container-title-text">
                 <h3 class="title-our-team-person">Pablo Mijangos</h3>
                 <p class="our-team-text">Diseñador IU</p>
+                <div class="content-social-networks">
+                  <ul class="social-networks-list list">
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <svg class="icon-networks" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
               </div>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section class="regular-customers-section section">
+        <div class="container-regular-customers container">
+          <h2 class="title-our-team">Clientes Regulares</h2>
+         
+            <ul class="regular-customers-list list">
+              <li class="regular-customers-item"><svg class="icon-customers" width="42" height="47">
+                <use href="./images/icons.svg#icon-customer-1"></use>
+              </svg></li>
+              <li class="regular-customers-item"><svg class="icon-customers" width="39" height="35">
+                <use href="./images/icons.svg#icon-customer-2"></use>
+              </svg></li>
+              <li class="regular-customers-item"><svg class="icon-customers" width="44" height="42">
+                <use href="./images/icons.svg#icon-customer-3"></use>
+              </svg></li>
+              <li class="regular-customers-item"><svg class="icon-customers" width="85" height="85">
+                <use href="./images/icons.svg#icon-customer-4"></use>
+              </svg></li>
+              <li class="regular-customers-item"><svg class="icon-customers" width="83" height="46">
+                <use href="./images/icons.svg#icon-customer-5"></use>
+              </svg></li>
+              <li class="regular-customers-item"><svg class="icon-customers" width="85" height="85">
+                <use href="./images/icons.svg#icon-customer-6"></use>
+              </svg></li>
+            </ul>
+          
         </div>
       </section>
     </main>
@@ -223,6 +415,41 @@
             </li>
           </ul>
         </address>
+        <aside>
+          <div class="content-social-footer">
+            <p class="text-social">ENCUENTRENOS EN</p>
+            <ul class="social-list list">
+              <li>
+                <a href="#">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin-2"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>  
       </div>
     </footer>
   </body>

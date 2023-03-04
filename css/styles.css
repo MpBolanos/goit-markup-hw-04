@@ -297,6 +297,7 @@ body {
   background-color: #fff;
   border-radius: 4px;
   margin-bottom: 94px;
+  position: relativo;
 }
 .img-work {
   width: 370px;
@@ -309,7 +310,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  position: relative;
+  position: absolute;
+  width: 370px;
   color: var(--primary-background-color);
   padding-top: 27px;
   padding-bottom: 27px;

@@ -123,8 +123,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts-link {
@@ -311,7 +311,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   position: absolute;
-  width: 370px;
+  width: 353px;
   color: var(--primary-background-color);
   padding-top: 27px;
   padding-bottom: 27px;
@@ -565,6 +565,7 @@ li.social-networks-item:hover svg {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-background-color);
+  margin-top: 16px;
 }
 
 .content-social-footer {
@@ -592,9 +593,7 @@ li.social-networks-item:hover svg {
   border-radius: 50%;
   cursor: pointer;
 }
-.text-social {
-  margin-top: 16px;
-}
+
 .icon-footer {
   fill: var(--primary-background-color);
 }
